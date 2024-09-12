@@ -1,0 +1,22 @@
+.small-button {
+  padding: 13px 40px;
+  max-width: 200px;
+  max-height: 49px;
+
+  border: 1px solid #d0d7dd;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+
+  transition: 0.7s;
+}
+
+.small-button:hover {
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    color: var(--white);
+}

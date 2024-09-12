@@ -1,0 +1,142 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+  margin-top: 27px;
+}
+
+.hero__info {
+  height: 100%;
+  padding-left: 104px;
+  padding-top: 133px;
+}
+
+.hero__hashtag {
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0.02em;
+  color: var(--yellow);
+}
+
+.hero__title {
+  margin-top: 16px;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  line-height: 79.2px;
+  letter-spacing: 0.04em;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.hero__subtitle {
+  margin-top: 80px;
+  display: flex;
+  gap: 96px;
+}
+
+.hero__subtitle-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero__subtitle-icon {
+  height: 44px;
+}
+
+.hero__subtitle-text {
+  font-size: 18px;
+  line-height: 21.6px;
+  color: var(--white);
+  opacity: 0.7;
+}
+
+.hero__links {
+  margin-top: 138px;
+  padding-top: 30px;
+
+  display: flex;
+  gap: 24px;
+}
+
+.hero__img {
+  object-fit: scale-down;
+}
+
+@media (max-width: 1440px) {
+  .hero__title {
+    font-size: 56px;
+  }
+  .hero__subtitle {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .hero__button {
+    width: 300px;
+  }
+  .hero__img {
+    width: 680px;
+  }
+  .hero__links {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero__info {
+    padding: 64px 120px;
+  }
+  .hero__img {
+    width: 540px;
+  }
+  .hero__button {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .hero__img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__links {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0;
+  }
+  .hero__info {
+    padding-left: 40px;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .hero__button {
+    width: 274px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero__info {
+    padding-left: 16px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero__title {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .hero__subtitle {
+    margin-top: 40px;
+  }
+  .hero__button {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,65 @@
+.button {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 93px;
+  width: 407px;
+  background-color: var(--white);
+}
+
+.button-white {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  line-height: 21.6px;
+  letter-spacing: 0.08em;
+  color: var(--black);
+  font-weight: 500;
+
+  transition: 0.7s;
+}
+
+.button-white:hover {
+  color: var(--yellow);
+}
+
+.button-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 107px;
+  height: 100%;
+  background-color: var(--yellow);
+  transition: 0.1s;
+}
+
+@media (max-width: 1440px) {
+  .button {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .button {
+    margin-top: 120px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .button {
+    width: 274px;
+  }
+}
+
+@media (max-width: 320px) {
+  .button {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,124 @@
+.member-card {
+  max-width: 477px;
+  height: 668px;
+
+  position: relative;
+}
+
+.member-card__top {
+  display: flex;
+}
+
+.member-card__style {
+  padding-left: 12px;
+  padding-bottom: 32px;
+
+  writing-mode: vertical-rl;
+  transform: scale(-1, -1);
+  text-align: right;
+
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.member-card__model-img {
+  max-width: 448px;
+  max-height: 580px;
+
+  object-fit: cover;
+}
+
+.member-card__info {
+  position: absolute;
+  width: 90%;
+  max-height: 120px;
+  background-color: #f4f4f4;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: start;
+  padding: 16px 16px 16px 24px;
+}
+
+.member-card__info-text {
+  margin-left: 16px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.member-card__info-name {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 26.4px;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.member-card__info-country {
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  color: var(--black);
+  opacity: 0.5;
+}
+
+.member-card__links {
+  align-self: end;
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+}
+
+/* @media (max-width: 1800px) {
+  .member-card {
+    max-width: 398px;
+    height: 557px;
+  }
+  .member-card__model-img {
+    max-width: 373px;
+  
+    object-fit: scale-down;
+  }
+}
+
+@media (max-width: 1570px) {
+  .member-card {
+    max-width: 331px;
+    height: 464px;
+  }
+  .member-card__model-img {
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .member-card {
+    max-width: 275px;
+    height: 387px;
+  }
+  .member-card__model-img {
+    max-width: 258px;
+  }
+  .member-card__info-name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1205px) {
+  .member-card {
+    max-width: 229px;
+    height: 322px;
+  }
+  .member-card__model-img {
+    max-width: 215px;
+  }
+  .member-card__info-name {
+    font-size: 15px;
+  }
+} */

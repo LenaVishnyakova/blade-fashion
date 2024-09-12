@@ -1,0 +1,40 @@
+.members {
+  padding: 4px 80px 69px 104px;
+}
+
+.members__title {
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 91.18px;
+  letter-spacing: 0.03em;
+
+  color: #1c1515;
+  opacity: 0.9;
+}
+
+.members__list {
+    display: flex;
+    justify-content: center;
+    
+
+    padding: 40px 60px;
+}
+
+@media (max-width: 1370px) {
+    .members__title {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .members__list {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .members {
+        padding-left: 48px;
+    }
+}
